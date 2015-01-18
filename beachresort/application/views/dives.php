@@ -4,8 +4,8 @@
 							<h1>Dive Site</h1>
 							<ul id="sites">
 								<li>
-									<a href="dives.html"><img src="images/reef1.jpg" alt="Img"></a>
-									<h2><a href="dives.html">Gale Reef</a></h2>
+									<a href="/dives"><img src="../assets/images/reef1.jpg" alt="Img"></a>
+									<h2><a href="/dives">Gale Reef</a></h2>
 									<p>
 										Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida. Vestibulum sit amet porttitor odio. Nulla facilisi. Fusce at pretium felis.
 									</p>
@@ -14,8 +14,8 @@
 									</p>
 								</li>
 								<li>
-									<a href="dives.html"><img src="images/reef2.jpg" alt="Img"></a>
-									<h2><a href="dives.html">Dawson’s Reef</a></h2>
+									<a href="/dives"><img src="../assets/images/reef2.jpg" alt="Img"></a>
+									<h2><a href="/dives">Dawson’s Reef</a></h2>
 									<p>
 										Integer magna leo, posuere et dignissim vitae, porttitor at odio. Pellentesque a metus nec magna placerat volutpat. Nunc nisi mi, elementum sit amet aliquet quis, tristique quis nisl. Curabitur odio lacus, blandit ut hendrerit
 									</p>
@@ -24,8 +24,8 @@
 									</p>
 								</li>
 								<li>
-									<a href="dives.html"><img src="images/reef3.jpg" alt="Img"></a>
-									<h2><a href="dives.html">Claire’s REEF</a></h2>
+									<a href="/dives"><img src="../assets/images/reef3.jpg" alt="Img"></a>
+									<h2><a href="/dives">Claire’s REEF</a></h2>
 									<p>
 										Donec sed felis risus. Nulla facilisi. Donec a orci tellus, et auctor odio. Fusce ac orci nibh, quis semper arcu. Cras orci neque, euismod et accumsan ac, sagittis molestie lorem. Proin odio sapien, elementum at tempor non.
 									</p>

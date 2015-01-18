@@ -4,14 +4,14 @@
 <head>
 	<meta charset="UTF-8">
 	<title>{pagetitle}</title>
-	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="../assets/css/style.css" type="text/css">
 </head>
 <body>
 	<div id="background">
 		<div id="page">
 			<div id="header">
 				<div id="logo">
-					<a href="/"><img src="images/logo.png" alt="LOGO" height="112" width="118"></a>
+					<a href="/"><img src="../assets/images/logo.png" alt="LOGO" height="112" width="118"></a>
 				</div>
 				<div id="navigation">
 					<ul>
