@@ -56,6 +56,8 @@ class News extends MY_Controller {
 	 */
 	public function index()
 	{
+    $this->data['menuNews'] = 'class="selected"';
+    $this->data['footNews'] = 'class="active"';
 		$this->data['pagebody'] = 'news';
     $this->render();
 	}

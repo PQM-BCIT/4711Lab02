@@ -56,7 +56,9 @@ class Foods extends MY_Controller {
 	 */
 	public function index()
 	{
-		$this->data['pagebody']= 'foods';
+    $this->data['menuFoods'] = 'class="selected"'; 
+    $this->data['footFoods'] = 'class="active"'; 
+		$this->data['pagebody'] = 'foods';
     $this->render();
 	}
 }

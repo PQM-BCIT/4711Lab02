@@ -56,6 +56,8 @@ class Dives extends MY_Controller {
 	 */
 	public function index()
 	{
+    $this->data['menuDives'] = 'class="selected"';
+    $this->data['footDives'] = 'class="active"';
 		$this->data['pagebody'] = 'dives';
     $this->render();
 	}

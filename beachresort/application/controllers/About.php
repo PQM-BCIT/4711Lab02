@@ -56,6 +56,8 @@ class About extends MY_Controller {
 	 */
 	public function index()
 	{
+    $this->data['menuAbout'] = 'class="selected"';
+    $this->data['footAbout'] = 'class="active"';
 		$this->data['pagebody'] = 'about';
     $this->render();
 	}

@@ -56,6 +56,8 @@ class Welcome extends MY_Controller {
 	 */
 	public function index()
 	{
+    $this->data['menuHome'] = 'class="selected"';
+    $this->data['footHome'] = 'class="active"';
     $this->data['pagebody'] = 'index';
     $this->render();
 	}

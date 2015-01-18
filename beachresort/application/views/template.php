@@ -15,25 +15,25 @@
 				</div>
 				<div id="navigation">
 					<ul>
-						<li class="selected">
+						<li {menuHome}>
 							<a href="/">Home</a>
 						</li>
-						<li>
+						<li {menuAbout}>
 							<a href="/about">About</a>
 						</li>
-						<li>
+						<li {menuRooms}>
 							<a href="/rooms">Rooms</a>
 						</li>
-						<li>
+						<li {menuDives}>
 							<a href="/dives">Dive Site</a>
 						</li>
-						<li>
+						<li {menuFoods}>
 							<a href="/foods">Food</a>
 						</li>
-						<li>
+						<li {menuNews}>
 							<a href="/news">News</a>
 						</li>
-						<li>
+						<li {menuContact}>
 							<a href="/contact">Contact</a>
 						</li>
 					</ul>
@@ -46,25 +46,25 @@
 		<div id="footer">
 			<div>
 				<ul class="navigation">
-					<li class="active">
+					<li {footHome}>
 						<a href="/">Home</a>
 					</li>
-					<li>
+					<li {footAbout}>
 						<a href="/about">About</a>
 					</li>
-					<li>
+					<li {footRooms}>
 						<a href="/rooms">Rooms</a>
 					</li>
-					<li>
+					<li {footDives}>
 						<a href="/dives">Dive Site</a>
 					</li>
-					<li>
+					<li {footFoods}>
 						<a href="/foods">Food</a>
 					</li>
-					<li>
+					<li {footNews}>
 						<a href="/news">News</a>
 					</li>
-					<li>
+					<li {footContact}>
 						<a href="/contact">Contact</a>
 					</li>
 				</ul>

@@ -56,6 +56,8 @@ class Rooms extends MY_Controller {
 	 */
 	public function index()
 	{
+    $this->data['menuRooms'] = 'class="selected"';
+    $this->data['footRooms'] = 'class="active"';
 		$this->data['pagebody'] = 'rooms';
     $this->render();
 	}

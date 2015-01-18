@@ -56,6 +56,8 @@ class Contact extends MY_Controller {
 	 */
 	public function index()
 	{
+    $this->data['menuContact'] = 'class="selected"';
+    $this->data['footContact'] = 'class="active"';
 		$this->data['pagebody'] = 'contact';
     $this->render();
 	}
