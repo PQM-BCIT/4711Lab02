@@ -37,7 +37,7 @@
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Dives extends CI_Controller {
+class Dives extends MY_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -56,7 +56,8 @@ class Dives extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('dives');
+		$this->data['pagebody'] = 'dives';
+    $this->render();
 	}
 }
 
